@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'msdocs-python-webapp-quickstart-jcp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CB70B14F8EC24EC3BA2C8DF148ACDD40 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
